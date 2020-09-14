@@ -1,0 +1,165 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6,{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* header css start here */
+.header-section{
+    width:100%;
+}
+.top-header{
+	width: 100%;
+	padding: 10px 0px;
+	background: #f5f7fa;
+}
+.top-header .info-inner{
+	display: block;
+	margin: 0px;
+}
+.top-header .info-inner li{
+	list-style-type: none;
+	display: inline-block;
+}
+.top-header .info-inner li a{
+	font-size: 14px;
+	font-weight: 500;
+	color:#506a85;
+	margin-right: 19px ;
+}
+.top-header .info-inner li a .fa{
+	margin-right: 7px ;
+}
+.top-header .social-icons{
+	text-align: right;
+	display: block;
+	margin: 0px;
+}
+.top-header .social-icons li{
+	list-style-type: none;
+	display: inline-block;
+	
+}
+.top-header .social-icons li a{
+	font-size: 14px;
+	color:#506a85;
+	margin-left: 15px;
+	font-weight: 500;
+}
+.header-section .bg-light{
+	width: 100%;
+	padding: 25px 0px;
+	background: #fff !important;
+}
+.header-section .navbar-expand-lg .navbar-nav {
+    margin-left: 15px
+}
+.header-section .navbar-light .navbar-nav .active>.nav-link{
+	color: #506a85;
+    font-size: 14px;
+    font-weight: 400;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #506a85;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px 10px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover,.header-section .navbar-light .navbar-nav .nav-link:focus{
+	color: #00bc9c
+}
+.header-section .navbar-light .search .fa{
+	color:#506a85;
+}
+/*slider section start here*/
+
+.slider{
+	width: 100%
+}
+.slider .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 30%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.slider .carousel-caption h2{
+	font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.slider .carousel-caption p{
+	font-size: 16px;
+	line-height: 26px;
+    margin: 15px 0px 45px;
+
+}
+.slider .carousel-caption .btn-info{
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 10px 28px;
+	color: #fff;
+	background: #00bc9c;
+	border: 1px solid #00bc9c;
+	border-radius: 2px
+}
+.slider .carousel-caption .btn-info:focus, .slider .carousel-caption .btn-info:hover{
+	color: #00bc9c;
+	background:transparent;
+	border: 1px solid #00bc9c;
+	transition: .5s
+
+}
+/*who we are section start here*/
+.who-we-are{
+	width: 100%
+}
+.who-we-are .title{
+	padding:65px 0px; 
+	text-align: center;
+}
+.who-we-are .title h3 {
+    font-size: 38px;
+    line-height: 45px;
+    color: #506a85;
+}
+.who-we-are .title p{
+	font-size: 	17px;
+	line-height: 26px;
+	color: #9ca9b7
+}
+.who-we-are .media{
+	width: 100%;
+	padding:0px 0px 55px;
+}
+.who-we-are .media .media-body {
+    margin-left: 15px;
+}
+.who-we-are .media h5{
+	text-transform: capitalize;
+	font-size: 26px;
+    line-height: 38px;
+    color: #506a85;
+    margin-bottom: 10px
+}
+.who-we-are .media p{
+	font-size: 	15px;
+	line-height: 24px;
+	color: #9ca9b7
+}
+
